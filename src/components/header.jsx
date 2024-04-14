@@ -1,3 +1,5 @@
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Header = () => {
   return (
     <header className="header">
@@ -12,6 +14,11 @@ const Header = () => {
           </div>
         </div>
         <div className="register">
+          <FontAwesomeIcon
+            className="menu"
+            icon={faBars}
+            style={{ color: "var(--primary-color)", fontSize: "1.5rem" }}
+          />
           <button className="btn" id="login_btn">
             Log in
           </button>

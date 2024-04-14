@@ -6,7 +6,7 @@ const Hero = () => {
         color: "#fff",
         height: "98vh",
         display: "flex",
-        padding: "0 2.5em",
+        padding: "0 2em",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "end",
@@ -27,7 +27,7 @@ const Hero = () => {
         }}
       >
         <h1 style={{ fontSize: "2.5rem" }}>
-          Explore our vibrant community of photo enthusiasts
+          The largest group of photo enthusiasts
         </h1>
         <p style={{ margin: "1em 0", fontSize: "1.3em" }}>
           Discover the Beauty of Photography
