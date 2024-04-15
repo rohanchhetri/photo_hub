@@ -19,15 +19,13 @@ const Hero = () => {
     >
       <div
         style={{
-          //   background: "Red",
-          width: "fit-content",
-          //   maxWidth: "60vw",
-          //   marginTop: "5rem",
+          width: "80vw",
           transform: "scaleX(-1)",
+          wordBreak: "break-all",
         }}
       >
         <h1 style={{ fontSize: "2.5rem" }}>
-          The largest group of photo enthusiasts
+          The largest community of photo enthusiasts
         </h1>
         <p style={{ margin: "1em 0", fontSize: "1.3em" }}>
           Discover the Beauty of Photography
