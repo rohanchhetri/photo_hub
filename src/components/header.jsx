@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { faBars, faHome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Header = () => {
@@ -5,13 +6,17 @@ const Header = () => {
     <header className="header">
       <nav className="navbar">
         <div className="nav_items">
-          <div className="logo">Logo</div>
+          <div className="logo">
+            <Link to="/">Logo</Link>
+          </div>
           <div className="nav_links">
-            <FontAwesomeIcon icon={faHome} id="home" />
-            <a href="roh">Features</a>
-            <a href="roh">Pricing</a>
-            <a href="roh">Community</a>
-            <a href="roh">Support</a>
+            <Link to="/">
+              <FontAwesomeIcon icon={faHome} id="home" />
+            </Link>
+            <Link to="/features">Features</Link>
+            <Link to="/pricing">Pricing</Link>
+            <Link to="/community">Community</Link>
+            <Link to="/support">Support</Link>
           </div>
         </div>
         <input type="text" id="search_bar" />
