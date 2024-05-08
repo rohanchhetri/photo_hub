@@ -1,4 +1,4 @@
-![Homepage](Photography Site.png)
+![Home](Photography Site.png)
 
 
 
