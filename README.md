@@ -1,1 +1,0 @@
-![Home](Photography Site.png)
